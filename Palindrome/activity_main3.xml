@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amstrong"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="86dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Enter input "
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="129dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="-100dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="226dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="-160dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Here is the result"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="330dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="-100dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
